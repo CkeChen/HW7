@@ -13,7 +13,7 @@
         <li>
             <asp:HyperLink ID="Link_editgame" runat="server" NavigateUrl="~/admin/ViewAllGames.aspx">Edit a Game</asp:HyperLink>
         </li>
-        <li><asp:HyperLink ID="Link_newGame" runat="server" NavigateUrl="~/admin/GameDetail.aspx">Add a New Game</asp:HyperLink></li>
+        <li><asp:HyperLink ID="Link_newGame" runat="server" NavigateUrl="~/admin/addNewGame.aspx">Add a New Game</asp:HyperLink></li>
         <li><asp:HyperLink ID="Link_users" runat="server" NavigateUrl="~/admin/site_mgr/UserMgmt.aspx">Manage Users</asp:HyperLink></li>
         <li><asp:HyperLink ID="Link_roles" runat="server" NavigateUrl="~/admin/site_mgr/RoleMgmt.aspx">Manage Roles</asp:HyperLink></li>
 
