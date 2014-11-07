@@ -26,7 +26,7 @@
             <asp:Parameter Name="Game_ID" Type="Int32" />
         </UpdateParameters>
     </asp:SqlDataSource>
-    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="Game_ID" DataSourceID="GameDataSource">
+    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="Game_ID" DataSourceID="GameDataSource" CssClass="gridview">
     </asp:GridView>
     <asp:Label runat="server" Text="Search for a Game by name"></asp:Label>
     <br />
